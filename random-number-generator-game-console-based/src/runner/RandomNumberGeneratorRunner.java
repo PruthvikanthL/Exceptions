@@ -29,6 +29,9 @@ public class RandomNumberGeneratorRunner {
             catch(IllegalArgumentException e){
                 System.out.println(e.getMessage());
             }
+            finally {
+                sc.close();
+            }
 
         }
     }
